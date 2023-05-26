@@ -10,6 +10,11 @@ public class Calculator {
 		return a*b;
 	}
 	public int divide(int a, int b) {
-		return a/b;
+		if (b==0) {
+			return 0;
+		}
+		else {
+			return a/b;
+		}
 	}
 }
